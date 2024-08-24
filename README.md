@@ -4,7 +4,7 @@ Week 1
 1. Two Sum
 https://leetcode.com/problems/two-sum/description/
 
-class Solution {
+`class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hm = new HashMap();
         for(int i=0; i<nums.length; i++){
@@ -19,6 +19,7 @@ class Solution {
         return new int[]{};
     }
 }
+`
 
 
 3. Contains Duplicate
