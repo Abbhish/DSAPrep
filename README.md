@@ -3,6 +3,7 @@
 Week 1
 1. Two Sum
 https://leetcode.com/problems/two-sum/description/
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hm = new HashMap();
@@ -19,7 +20,8 @@ class Solution {
     }
 }
 
-2. Contains Duplicate
+
+3. Contains Duplicate
 https://leetcode.com/problems/contains-duplicate/
 class Solution {
     public boolean containsDuplicate(int[] nums) {
