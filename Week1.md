@@ -1,17 +1,6 @@
 Week 1
 
 1. Two Sum
-2. Contains Duplicate
-3. Best Time to Buy and Sell Stock
-4. Valid Anagram
-5. Valid Parentheses
-6. Maximum Subarray
-7. Product of Array Except Self
-8. 3Sum
-9. Merge Intervals
-10. Group Anagrams
-
-1. Two Sum
 https://leetcode.com/problems/two-sum/description/
 
 ```
