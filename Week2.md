@@ -1,8 +1,28 @@
 Week 2
+Count 11
 
 1. Reverse Linked List
 https://leetcode.com/problems/reverse-linked-list/description/
 
+```
+Example 1:
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+```
+![image](https://github.com/user-attachments/assets/1f6deed8-9a24-4f86-859d-a37de76a9b9a)
+
+```
+Example 2:
+Input: head = [1,2]
+Output: [2,1]
+```
+![image](https://github.com/user-attachments/assets/d4743a74-181f-4015-a5ef-43ecb96cdfc1)
+
+```
+Example 3:
+Input: head = []
+Output: []
+```
 ```
 /**
  * Definition for singly-linked list.
@@ -34,6 +54,30 @@ class Solution {
 https://leetcode.com/problems/linked-list-cycle/description/
 
 ```
+Example 1:
+Input: head = [3,2,0,-4], pos = 1
+Output: true
+Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+```
+![image](https://github.com/user-attachments/assets/b9478b31-60be-4af5-b5b7-7b2a915740f2)
+
+```
+Example 2:
+Input: head = [1,2], pos = 0
+Output: true
+Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
+```
+![image](https://github.com/user-attachments/assets/7b6ac1e5-11e0-484f-9673-ae6330e653a1)
+
+```
+Example 3:
+Input: head = [1], pos = -1
+Output: false
+Explanation: There is no cycle in the linked list.
+```
+![image](https://github.com/user-attachments/assets/3816e27a-580e-4d25-a351-66e2152e3885)
+
+```
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -62,6 +106,19 @@ public class Solution {
 
 3. Container With Most Water
 https://leetcode.com/problems/container-with-most-water/description/
+```
+Example 1:
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+```
+![image](https://github.com/user-attachments/assets/a9e69dbd-2f74-4791-b43d-243e22e6b7d0)
+
+```
+Example 2:
+Input: height = [1,1]
+Output: 1
+```
 
 ```
 class Solution {
@@ -88,6 +145,22 @@ class Solution {
 4. Find Minimum In Rotated Sorted Array
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 ```
+Example 1:
+Input: nums = [3,4,5,1,2]
+Output: 1
+Explanation: The original array was [1,2,3,4,5] rotated 3 times.
+
+Example 2:
+Input: nums = [4,5,6,7,0,1,2]
+Output: 0
+Explanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.
+
+Example 3:
+Input: nums = [11,13,15,17]
+Output: 11
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times. 
+```
+```
 class Solution {
     public int findMin(int[] nums) {
         int start=0;
@@ -107,6 +180,19 @@ class Solution {
 
 5. Longest Repeating Character Replacement
 https://leetcode.com/problems/longest-repeating-character-replacement/description/
+```
+Example 1:
+Input: s = "ABAB", k = 2
+Output: 4
+Explanation: Replace the two 'A's with two 'B's or vice versa.
+
+Example 2:
+Input: s = "AABABBA", k = 1
+Output: 4
+Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
+The substring "BBBB" has the longest repeating letters, which is 4.
+There may exists other ways to achieve this answer too.
+```
 
 ```
 class Solution {
@@ -136,7 +222,23 @@ class Solution {
 
 6. Longest Substring Without Repeating Characters
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+```
+Example 1:
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
 
+Example 2:
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+
+Example 3:
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+```
 ```
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -163,7 +265,25 @@ class Solution {
 
 7. Number Of Islands
 https://leetcode.com/problems/number-of-islands/description/
+```
+Example 1:
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
 
+Example 2:
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+```
 ```
 class Solution {
     public int numIslands(char[][] grid) {
@@ -195,6 +315,22 @@ class Solution {
 
 8. Remove Nth Node From End Of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+```
+Example 1:
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+```
+![image](https://github.com/user-attachments/assets/c111d8ee-a85f-423a-ab84-76ea25a8e898)
+
+```
+Example 2:
+Input: head = [1], n = 1
+Output: []
+
+Example 3:
+Input: head = [1,2], n = 1
+Output: [1]
+```
 
 ```
 /**
@@ -228,6 +364,17 @@ class Solution {
 
 9. Palindromic Substring
 https://leetcode.com/problems/palindromic-substrings/description/
+```
+Example 1:
+Input: s = "abc"
+Output: 3
+Explanation: Three palindromic strings: "a", "b", "c".
+
+Example 2:
+Input: s = "aaa"
+Output: 6
+Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+```
 
 ```
 class Solution {
@@ -252,6 +399,37 @@ class Solution {
 
 10. Pacific Atlantic Waterflow
 https://leetcode.com/problems/pacific-atlantic-water-flow/description/
+
+```
+Example 1:
+```
+![image](https://github.com/user-attachments/assets/e37c4af0-c84e-456c-9f8b-073bba23b7e9)
+
+```
+Input: heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]
+Output: [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]
+Explanation: The following cells can flow to the Pacific and Atlantic oceans, as shown below:
+[0,4]: [0,4] -> Pacific Ocean 
+       [0,4] -> Atlantic Ocean
+[1,3]: [1,3] -> [0,3] -> Pacific Ocean 
+       [1,3] -> [1,4] -> Atlantic Ocean
+[1,4]: [1,4] -> [1,3] -> [0,3] -> Pacific Ocean 
+       [1,4] -> Atlantic Ocean
+[2,2]: [2,2] -> [1,2] -> [0,2] -> Pacific Ocean 
+       [2,2] -> [2,3] -> [2,4] -> Atlantic Ocean
+[3,0]: [3,0] -> Pacific Ocean 
+       [3,0] -> [4,0] -> Atlantic Ocean
+[3,1]: [3,1] -> [3,0] -> Pacific Ocean 
+       [3,1] -> [4,1] -> Atlantic Ocean
+[4,0]: [4,0] -> Pacific Ocean 
+       [4,0] -> Atlantic Ocean
+Note that there are other possible paths for these cells to flow to the Pacific and Atlantic oceans.
+
+Example 2:
+Input: heights = [[1]]
+Output: [[0,0]]
+Explanation: The water can flow from the only cell to the Pacific and Atlantic oceans.
+```
 
 ```
 class Solution {
@@ -302,7 +480,23 @@ class Solution {
 
 11. Minimum Window Substring
 https://leetcode.com/problems/minimum-window-substring/description/
+```
+Example 1:
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
 
+Example 2:
+Input: s = "a", t = "a"
+Output: "a"
+Explanation: The entire string s is the minimum window.
+
+Example 3:
+Input: s = "a", t = "aa"
+Output: ""
+Explanation: Both 'a's from t must be included in the window.
+Since the largest window of s only has one 'a', return empty string.
+```
 ```
 class Solution {
     public String minWindow(String s, String t) {
