@@ -1,5 +1,7 @@
 Week 3
 
+Count 9
+
 1. Invert Binary Tree
 https://leetcode.com/problems/invert-binary-tree/description/
 ```
