@@ -1,8 +1,22 @@
 Week 4
 
-1. Subtree of Aother Tree
+1. Subtree of Another Tree
 https://leetcode.com/problems/subtree-of-another-tree/description/
+```
+Example 1:
+```
+![alt text](image.png)
+```
+Input: root = [3,4,5,1,2], subRoot = [4,1,2]
+Output: true
 
+Example 2:
+```
+![alt text](image-1.png)
+```
+Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
+Output: false
+```
 ```
 /**
  * Definition for a binary tree node.
@@ -36,7 +50,28 @@ class Solution {
 
 2. Lowest Common Ancestor of a Binary Search Tree.
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
+```
+Example 1:
+```
+![alt text](image-2.png)
+```
+Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+Output: 6
+Explanation: The LCA of nodes 2 and 8 is 6.
 
+Example 2:
+```
+![alt text](image-3.png)
+```
+Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+Output: 2
+Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+
+Example 3:
+Input: root = [2,1], p = 2, q = 1
+Output: 2
+
+```
 ```
 /**
  * Definition for a binary tree node.
@@ -70,7 +105,23 @@ class Solution {
 
 3. Implement Trie
 https://leetcode.com/problems/implement-trie-prefix-tree/description/
+```
+Example 1:
+Input
+["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
+[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
+Output
+[null, null, true, false, true, null, true]
 
+Explanation
+Trie trie = new Trie();
+trie.insert("apple");
+trie.search("apple");   // return True
+trie.search("app");     // return False
+trie.startsWith("app"); // return True
+trie.insert("app");
+trie.search("app");     // return True
+```
 ```
 class Trie {
     Trie[] children;
@@ -121,7 +172,24 @@ class Trie {
 
 4. Design Add and Search Word Data Structure.
 https://leetcode.com/problems/design-add-and-search-words-data-structure/description/
+```
+Example:
+Input
+["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
+[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
+Output
+[null,null,null,null,false,true,true,true]
 
+Explanation
+WordDictionary wordDictionary = new WordDictionary();
+wordDictionary.addWord("bad");
+wordDictionary.addWord("dad");
+wordDictionary.addWord("mad");
+wordDictionary.search("pad"); // return False
+wordDictionary.search("bad"); // return True
+wordDictionary.search(".ad"); // return True
+wordDictionary.search("b.."); // return True
+```
 ```
 class WordDictionary {
     WordDictionary[] children;
@@ -170,7 +238,21 @@ class WordDictionary {
 
 5. Kth Smallest Elemnet in the BST.
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+```
+Example 1:
+```
+![alt text](image-4.png)
+```
+Input: root = [3,1,4,null,2], k = 1
+Output: 1
 
+Example 2:
+```
+![alt text](image-5.png)
+```
+Input: root = [5,3,6,2,4,null,null,1], k = 3
+Output: 3
+```
 ```
 /**
  * Definition for a binary tree node.
@@ -208,7 +290,27 @@ class Solution {
 
 6. Merge K Sorted List
 https://leetcode.com/problems/merge-k-sorted-lists/description/
+```
+Example 1:
+Input: lists = [[1,4,5],[1,3,4],[2,6]]
+Output: [1,1,2,3,4,4,5,6]
+Explanation: The linked-lists are:
+[
+  1->4->5,
+  1->3->4,
+  2->6
+]
+merging them into one sorted list:
+1->1->2->3->4->4->5->6
 
+Example 2:
+Input: lists = []
+Output: []
+
+Example 3:
+Input: lists = [[]]
+Output: []
+```
 ```
 /**
  * Definition for singly-linked list.
@@ -245,7 +347,22 @@ class Solution {
 
 7. Find Median From Data Stream
 https://leetcode.com/problems/find-median-from-data-stream/description/
+```
+Example 1:
+Input
+["MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"]
+[[], [1], [2], [], [3], []]
+Output
+[null, null, null, 1.5, null, 2.0]
 
+Explanation
+MedianFinder medianFinder = new MedianFinder();
+medianFinder.addNum(1);    // arr = [1]
+medianFinder.addNum(2);    // arr = [1, 2]
+medianFinder.findMedian(); // return 1.5 (i.e., (1 + 2) / 2)
+medianFinder.addNum(3);    // arr[1, 2, 3]
+medianFinder.findMedian(); // return 2.0
+```
 ```
 class MedianFinder {
     PriorityQueue<Integer> maxHeap;
@@ -286,7 +403,17 @@ class MedianFinder {
 
 8. Insert Interval
 https://leetcode.com/problems/insert-interval/
+```
+Example 1:
+Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output: [[1,5],[6,9]]
 
+Example 2:
+Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+Output: [[1,2],[3,10],[12,16]]
+Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
+
+```
 ```
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
@@ -310,7 +437,16 @@ class Solution {
 
 9. Longest Consecutive Subsequence
 https://leetcode.com/problems/longest-consecutive-sequence/description/
+```
+Example 1:
+Input: nums = [100,4,200,1,3,2]
+Output: 4
+Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
 
+Example 2:
+Input: nums = [0,3,7,2,5,8,4,6,0,1]
+Output: 9
+```
 ```
 class Solution {
     public int longestConsecutive(int[] nums) {
@@ -345,7 +481,21 @@ class Solution {
 
 10. Word Search II
 https://leetcode.com/problems/word-search-ii/description/
+```
+Example 1:
+```
+![alt text](image-6.png)
+```
+Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
+Output: ["eat","oath"]
 
+Example 2:
+```
+![alt text](image-7.png)
+```
+Input: board = [["a","b"],["c","d"]], words = ["abcb"]
+Output: []
+```
 ```
 class Solution {
     class Trie {
