@@ -5,14 +5,14 @@ https://leetcode.com/problems/subtree-of-another-tree/description/
 ```
 Example 1:
 ```
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/952d87f3-6ebe-49c8-87c4-2d0e440e87c6)
 ```
 Input: root = [3,4,5,1,2], subRoot = [4,1,2]
 Output: true
 
 Example 2:
 ```
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/50d24b3e-188c-4213-a5fc-27906001f071)
 ```
 Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
 Output: false
@@ -53,7 +53,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/des
 ```
 Example 1:
 ```
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/9ae4c683-0c5c-4511-a58a-2071d993c5c8)
 ```
 Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 Output: 6
@@ -61,7 +61,7 @@ Explanation: The LCA of nodes 2 and 8 is 6.
 
 Example 2:
 ```
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/9959a336-12af-4536-9457-b0ce445b7d61)
 ```
 Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
 Output: 2
@@ -241,14 +241,14 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 ```
 Example 1:
 ```
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/30387a3b-ac3c-4309-a68f-414aaed2022d)
 ```
 Input: root = [3,1,4,null,2], k = 1
 Output: 1
 
 Example 2:
 ```
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/3ce87ca4-e3e6-4255-927e-6f7b00929cfe)
 ```
 Input: root = [5,3,6,2,4,null,null,1], k = 3
 Output: 3
@@ -484,14 +484,14 @@ https://leetcode.com/problems/word-search-ii/description/
 ```
 Example 1:
 ```
-![alt text](image-6.png)
+![image](https://github.com/user-attachments/assets/708b713c-8aa5-445d-bc3f-24a5a9e7cdba)
 ```
 Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
 Output: ["eat","oath"]
 
 Example 2:
 ```
-![alt text](image-7.png)
+![image](https://github.com/user-attachments/assets/3611c2bb-0416-4e16-9f09-9bd658a72fc4)
 ```
 Input: board = [["a","b"],["c","d"]], words = ["abcb"]
 Output: []
