@@ -4,6 +4,12 @@ Strings
 
 https://www.naukri.com/code360/problems/reverse-string-word-wise_1262348?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+Welcome to Coding Ninjas
+Sample Output 1:
+Ninjas Coding to Welcome
+```
+```
 import java.util.Scanner;
 
 class Solution {
@@ -35,6 +41,17 @@ class Solution {
 
 https://www.naukri.com/code360/problems/encode-the-message_699836?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube&leftPanelTabValue=PROBLEM
 ```
+Sample Input 1 :
+3
+aabbc
+abcd
+abbdcaas
+Sample Output 1 :
+a2b2c1
+a1b1c1d1
+a1b2d1c1a2s1
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -62,6 +79,17 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/mnfrj_1075018?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+2
+)((()
+((
+Sample Output 1:
+3
+2
+```
+![image](https://github.com/user-attachments/assets/74a165f8-6d58-422f-a43d-f8e3716634f5)
+
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -85,6 +113,15 @@ public class Solution {
 4. Beautiful String
 
 https://www.naukri.com/code360/problems/beautiful-string_1115625?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+0000
+1010
+Sample Output 1 :
+2
+0
+```
 ```
 public class Solution {
     public static int makeBeautiful(String str) {
@@ -114,6 +151,14 @@ public class Solution {
 5. Next Smallest Palindrome
 
 https://www.naukri.com/code360/problems/given-a-string-find-the-next-smallest-palindrome_874577?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+1
+4
+1221
+Sample Output 1:
+1331
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -182,6 +227,15 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/first-non-repeating-character_920324?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1 :
+2
+aDcadhc
+AabBcC
+Sample Output 1:
+ D
+ A
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -205,6 +259,15 @@ public class Solution {
 7. Check Permumtation
 
 https://www.naukri.com/code360/problems/check-permutation_1172164?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2
+listen silent
+east eats
+Sample Output 1:
+1
+1
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -230,6 +293,26 @@ public class Solution {
 8. Find Kth Character of Decrypted String
 
 https://www.naukri.com/code360/problems/find-k-th-character-of-decrypted-string_630508?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+a2b3cd3
+8
+Sample Output 1 :
+c
+ Explanation to Sample Input 1 :
+S = "a2b3cd3"
+Decrypted String of S = "aabbbcdcdcd"
+According to 1-based indexing for S, the 8th character is 'c'.
+Sample Input 2 :
+ab12c3
+20
+Sample Output 2 :
+b
+ Explanation to Sample Input 2 :
+S = "ab12c3"
+Decrypted String of S = "ababababababababababababccc"
+So 20th character is 'b'.
+```
 ```
 public class Solution 
 {
