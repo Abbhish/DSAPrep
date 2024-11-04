@@ -387,7 +387,7 @@ public class Solution {
 }
 ```
 
-10. Append Nodes
+9. Append Nodes
 
 https://www.naukri.com/code360/problems/append-nodes_763407?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
@@ -448,5 +448,32 @@ public class Solution {
         return head;
 
     }
+}
+```
+
+10. Segregate Odd Even
+https://www.naukri.com/code360/problems/segregate-odd-even_920524?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+public class Solution {
+	public static Node segregateOddEven(Node head) {
+		Node oddHead = new Node(-1), oddTail = oddHead;
+		Node evenHead = new Node(-1), evenTail = evenHead;
+		Node curr = head, temp;
+
+		while(curr!=null){
+			temp = curr;
+			curr=curr.next;
+			temp.next=null;
+			if(temp.data%2!=0){
+				oddTail.next = temp;
+				oddTail = temp;
+			}else{
+				evenTail.next = temp;
+				evenTail = temp;
+			}
+		}
+		oddTail.next = evenHead.next;
+		return oddHead.next;
+	}
 }
 ```
