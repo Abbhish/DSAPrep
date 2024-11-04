@@ -3,6 +3,19 @@ Recursion Basics
 1. Merge Sort
 
 https://www.naukri.com/code360/problems/merge-sort_920442?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/f2e1f8f8-3612-4e25-8e3b-ab16057586aa)
+
+```
+Sample Input 1 :
+2
+7
+3 4 1 6 2 5 7
+4
+4 3 1 2
+Sample Output 1 :
+1 2 3 4 5 6 7
+1 2 3 4
+```
 ```
 public class Solution {
 	public static void mergeSort(int[] arr, int n) {
@@ -51,6 +64,18 @@ public class Solution {
 2. Quick Sort
 
 https://www.naukri.com/code360/problems/quick-sort_983625?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/5923fe8d-1739-4464-ae3f-c41614fd258e)
+```
+Sample Input 1:
+2
+5
+4 2 5 1 3
+4     
+6 2 4 1
+Sample Output 1:
+1 2 3 4 5
+1 2 4 6
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -91,6 +116,19 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/find-k-th-element_1214963?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample input 1:
+2
+4 3 4
+1 4 7 10
+2 5 6
+1 1 2
+7
+1
+Sample output 1:
+5
+7
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -120,6 +158,16 @@ public class Solution {
 4. Family Structure
 
 https://www.naukri.com/code360/problems/family-structure_981243?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/f8c87cd5-cce0-4f3f-b62f-5542e14ce0c9)
+```
+Sample Input 1:
+2
+2 2 
+3 4  
+Sample Output 1:
+Female
+Male
+```
 ```
 public class Solution {
 	public static String kthChildNthGeneration(int n, long k) {
@@ -139,6 +187,16 @@ public class Solution {
 5. Binary String with no consecutive 1's
 
 https://www.naukri.com/code360/problems/binary-strings-with-no-consecutive-1s_893001?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+4
+Sample Output 1:
+0000 0001 0010 0100 0101 1000 1001 1010 
+Explanation of sample input 1:
+For N = 4 we get the following Strings:
+
+0000 0001 0010 0100 0101 1000 1001 1010
+```
 ```
 import java.util.ArrayList;
 import java.util.List;
