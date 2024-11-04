@@ -400,6 +400,20 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/799354?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1 :
+1
+4
+1 2 4 3
+Sample Output 1 :
+2 4 -1 -1
+Sample Input 2 :
+1
+4
+9 3 6 5
+Sample Output 2 :
+-1 6 -1 -1
+```
+```
 import java.util.* ;
 import java.io.*; 
 
@@ -428,6 +442,19 @@ public class Solution {
 9. Online Stock Span
 
 https://www.naukri.com/code360/problems/span-of-ninja-coin_1475049?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+3
+1 1 1
+5
+4 2 3 3 6
+Sample Output 1 :
+1 2 3
+1 1 2 3 5
+Explanation of sample input 1 :
+In the first test case, the price of Ninja Coin is the same for all three consecutive days, so its span at ith day will be the number of days till ‘i’.
+```
 ```
 import java.util.* ;
 import java.io.*; 
