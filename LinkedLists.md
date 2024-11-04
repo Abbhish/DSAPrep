@@ -4,6 +4,13 @@ Linked Lists
 
 https://www.naukri.com/code360/problems/reverse-the-singly-linked-list_799897?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1 :
+1
+1 2 3 4 5 6 -1
+Sample Output 1 :
+6 5 4 3 2 1 -1
+```
+```
 import java.io.*;
 import java.util.* ;
 
@@ -40,6 +47,15 @@ public class Solution
 2. Middle of Linked List
 
 https://www.naukri.com/code360/problems/middle-of-linked-list_973250?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+5
+1 2 3 4 5
+Sample Output 1 :
+3 4 5
+```
+![image](https://github.com/user-attachments/assets/3fdaa5d3-f404-4195-a4ed-608ee1df553a)
+
 ```
 /****************************************************************
 
@@ -86,7 +102,18 @@ public class Solution
 
 3. Merge Sort
 https://www.naukri.com/code360/problems/merge-sort_920442?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
-
+![image](https://github.com/user-attachments/assets/395ed67d-d343-4484-a718-1b05c5432295)
+```
+Sample Input 1 :
+2
+7
+3 4 1 6 2 5 7
+4
+4 3 1 2
+Sample Output 1 :
+1 2 3 4 5 6 7
+1 2 3 4
+```
 ```
 public class Solution {
 	public static void mergeSort(int[] arr, int n) {
@@ -133,8 +160,15 @@ public class Solution {
 ```
 
 4. Add Two Numbers
-
 https://www.naukri.com/code360/problems/add-two-numbers-as-linked-lists_1170520?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Example :
+Input:
+'num1' : 1 -> 2 -> 3 -> NULL
+'num2' : 4 -> 5 -> 6 -> NULL
+
+Output: 5 -> 7 -> 9 -> NULL
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -184,6 +218,15 @@ public class Solution {
 5. Insertion Sort
 
 https://www.naukri.com/code360/problems/insertion-sort-in-linked-list_1090544?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1
+2
+4 2 1 3 -1
+19 3 6 1 5 -1
+Sample Output 1
+1 2 3 4
+1 3 5 6 19
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -237,6 +280,15 @@ public static Node insertionSortLL(Node head)
 6. Delete Kth Node From End
 
 https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Example:
+Input : 1 -> 2 -> 3 -> 4 -> 'NULL'  and  'K' = 2
+Output: 1 -> 2 -> 4 -> 'NULL'
+Explanation:
+After removing the second node from the end, the linked list become 1 -> 2 -> 4 -> 'NULL'.
+```
+![image](https://github.com/user-attachments/assets/9ce2214f-6a20-438b-b675-213ff5f9058e)
+
 ```
 /****************************************************************
 
@@ -297,6 +349,15 @@ public class Solution
 
 https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input:
+6 2
+1 2 3 4 5 6 
+Sample Output:
+1 2 3 4 5 6
+```
+![image](https://github.com/user-attachments/assets/a893601c-e3e1-433d-90d4-b4aea56d1390)
+
+```
 /*****************************************************
   
   Following is the structure of Node.
@@ -345,6 +406,12 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/pair-swap_759396?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+11 21 13 14 15 -1
+Sample Output 1:
+21 11 14 13 15 -1
+```
+```
 import java.util.* ;
 import java.io.*; 
 /****************************************************************
@@ -390,6 +457,17 @@ public class Solution {
 9. Append Nodes
 
 https://www.naukri.com/code360/problems/append-nodes_763407?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2
+1 2 3 4 5 6 7 8 9 10 11 12 -1
+2 3
+5 4 3 7 9 -1
+4 3
+Sample Output 1:
+1 2 3 4 5 9 6 7 8 9 10 19 11 12
+5 4 3 7 9 16
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -452,7 +530,17 @@ public class Solution {
 ```
 
 10. Segregate Odd Even
+
 https://www.naukri.com/code360/problems/segregate-odd-even_920524?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2
+6 10 7 8 5 -1
+5 10 6 4 7 -1
+Sample Output 1:
+7 5 6 10 8 -1 
+5 7 10 6 4 -1
+```
 ```
 public class Solution {
 	public static Node segregateOddEven(Node head) {
