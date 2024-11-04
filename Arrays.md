@@ -4,6 +4,17 @@ Arrays
 
 https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+2
+6
+12 1 35 10 34 1
+5
+10 10 10 10 10
+Sample Output 1:
+34
+-1
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -28,6 +39,14 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/rotate-array_1230543?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+8
+7 5 2 11 2 43 1 1
+2
+Sample Output 1:
+2 11 2 43 1 1 7 5
+```
+```
 import java.util.ArrayList;
 
 public class Solution {
@@ -47,6 +66,17 @@ public class Solution {
 3. Non-Decreasing Array
 
 https://www.naukri.com/code360/problems/non-decreasing-array_699920?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+3
+8 4 6
+3
+8 4 2
+Sample Output 1 :
+true
+false
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -75,6 +105,18 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/equilibrium-index_893014?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+1
+6
+1 7 3 6 5 6
+Sample Output 1:
+3
+Explanation for Sample Input 1:
+The sum of elements to the left of arr[3] = 1 + 7 + 3 = 11.
+The sum of elements to the right of arr[3] = 5 + 6 = 11.
+Hence the answer is 3.
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -100,6 +142,14 @@ public class Solution {
 5. First Missing Positive
 
 https://www.naukri.com/code360/problems/first-missing-positive_699946?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+1
+5
+3 2 -6 1 0
+Sample Output 1:
+4
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -149,6 +199,17 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/make-unique-array_920329?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1 :
+2
+4
+1 2 1 2
+5
+3 6 7 12 13 
+Sample Output 1 :
+2
+0  
+```
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -172,6 +233,21 @@ public class Solution {
 7. Sum of Zeroes
 
 https://www.naukri.com/code360/problems/array-sum_893287?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+1
+2 2 
+1 0
+0 1
+Sample Output 1:
+4
+Explanation of Input 1:
+In the given matrix, there are 2 zeros. 
+For the 0 at the 1st row, 2nd column position, coverage is 2(there is 1 adjacent top one and 1 adjacent right one).
+For the 0 at the 2nd row, 2nd column the coverage is 2(there is 1 adjacent top one and 1 adjacent right one).
+
+Hence the net coverage is 2 + 2 = 4.
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -219,6 +295,16 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/matrix-is-symmetric_799361?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube&leftPanelTabValue=SUBMISSION
 ```
+Sample Input 1 :
+1
+3
+1 2 3 2 4 5 3 5 8
+Sample Output 1 :
+Yes
+Explanation For The Sample Output 1 :
+```
+![image](https://github.com/user-attachments/assets/00436964-2442-4edc-933e-7c9f547c5ccb)
+```
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -241,6 +327,17 @@ public class Solution {
 9. Pair Sum
 
 https://www.naukri.com/code360/problems/pair-sum_1171154?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2
+5 6
+1 2 3 4 5
+6 7
+1 2 3 4 5 6
+Sample Output 1:
+2
+3
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -268,6 +365,15 @@ public class Solution {
 10. Bubble Sort
 
 https://www.naukri.com/code360/problems/bubble-sort_980524?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/9dcab665-81c1-4636-a46d-6259ff21a1a9)
+```
+Sample Input 1:
+1
+5
+6 2 8 4 10
+Sample Output 1:
+2 4 6 8 10
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -292,6 +398,15 @@ public class Solution {
 11. Selection Sort
 
 https://www.naukri.com/code360/problems/selection-sort_981162?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/8067db18-397b-47b6-834b-ecbb93047c85)
+```
+Sample Input 1:
+1
+5
+6 2 8 4 10
+Sample Output 1:
+2 4 6 8 10
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -313,6 +428,17 @@ public class Solution {
 12. Insertion Sort
 
 https://www.naukri.com/code360/problems/insertion-sort_3155179?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+4
+3 1 2 2
+3
+1 4 2
+Sample Output 1 :
+1 2 2 3
+1 2 4
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -336,6 +462,19 @@ public class Solution {
 13. Intersection of Two Sorted Arrays
 
 https://www.naukri.com/code360/problems/intersection-of-2-arrays_1082149?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+6 4
+1 2 2 2 3 4
+2 2 3 3
+3 2
+1 2 3
+3 4  
+Sample Output 1 :
+2 2 3
+3  
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -375,9 +514,18 @@ public class Solution
 
 ```
 
-14. Maximum Subarray Sum
+14. Maximum Subarray Sum (Kandane's Algo)
 
 https://www.naukri.com/code360/problems/630526?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+9
+1 2 7 -4 3 2 -10 9 1
+
+
+Sample Output 1 :
+11
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -406,6 +554,17 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/interview-shuriken-41-move-zeroes-to-end_240143
 ```
+Sample Input 1:
+2
+7
+2 0 4 1 3 0 28
+5
+0 0 0 0 1
+Sample Output 1:
+2 4 1 3 28 0 0
+1 0 0 0 0
+```
+```
 public class Solution {
 	public static void pushZerosAtEnd(ArrayList<Integer> arr)
 	{
@@ -428,6 +587,18 @@ public class Solution {
 16. Square Root of a number
 
 https://www.naukri.com/code360/problems/square-root-integral_893351?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+6
+Sample Output 1:
+2
+Explanation of Sample Input 1:
+The square root of the given number 6 lies between 2 and 3, so the floor value is 2.
+Sample Input 2:
+100
+Sample Output 2:
+10
+```
 ```
 import java.util.* ;
 
@@ -462,6 +633,17 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/630450?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+4
+2 5 -3 0
+2
+5
+1
+Sample Output 1:
+1
+-1
+```
+```
 public class Solution {
     public static int search(int arr[], int key) {
         int left=0;
@@ -492,6 +674,17 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+Sample Input 1:
+2
+5
+1 -4 -2 5 3
+2
+2 1 
+Sample Output 1:
+-2 -4 1 5 3
+2 1
+```
+```
 public class Solution {
     public static int[] separateNegativeAndPositive(int a[]) {
         int left=0;
@@ -520,6 +713,18 @@ public class Solution {
 19. Container with most water
 
 https://www.naukri.com/code360/problems/container-with-most-water_873860?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/cbb0bb93-19f2-4d12-8d10-fe8c3abe3170)
+```
+Sample Input 1 :
+2
+5
+4 3 2 1 4
+3
+1 2 1
+Sample Output 1 :
+16
+2 
+```
 ```
 public class Solution {
 
@@ -547,6 +752,17 @@ public class Solution {
 20. Longest Subarray Zero Sum
 
 https://www.naukri.com/code360/problems/longest-subset-zero-sum_920321?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2 
+5
+1 3 -1 4 -4
+4
+1 -1 2 -2 
+Sample Output 1:
+2
+4 
+```
 ```
 import java.io.*;
 import java.util.* ;
@@ -576,9 +792,20 @@ public class Solution {
 }
 ```
 
-21. Sort 0 1 2
+21. Sort 0 1 2 (Dutch National Flag Algo)
 
 https://www.naukri.com/code360/problems/631055?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1 :
+2
+6
+0 1 2 2 1 0
+7
+0 1 2 1 2 1 2
+Sample Output 1 :
+0 0 1 1 2 2
+0 1 1 1 2 2 2
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -611,9 +838,20 @@ public class Solution
 }
 ```
 
-22. Majority Element
+22. Majority Element (Moore's Voting Algo)
 
 https://www.naukri.com/code360/problems/842495?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Sample Input 1:
+2
+5
+2 3 9 2 2
+4
+8 5 1 9 
+Sample Output 1:
+2
+-1
+```
 ```
 import java.io.*;
 import java.util.* ;
@@ -646,6 +884,18 @@ public class Solution {
 23. Is Subsequence
 
 https://www.naukri.com/code360/problems/is-subsequence_892991?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/1366411b-de98-44cd-a1b4-57391ebe22ed)
+```
+Sample Input 1:
+2
+AE
+BADE
+AB
+AC
+Sample Output 1:
+True
+False
+```
 ```
 import java.util.* ;
 import java.io.*; 
