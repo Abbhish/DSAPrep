@@ -1,5 +1,7 @@
 Linked Lists
 
+Count - 10
+
 1. Reverse Linked List
 
 https://www.naukri.com/code360/problems/reverse-the-singly-linked-list_799897?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
