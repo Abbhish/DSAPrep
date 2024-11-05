@@ -1,5 +1,7 @@
 Arrays
 
+Count - 23
+
 1. Second Largest Element in the Array.
 
 https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
