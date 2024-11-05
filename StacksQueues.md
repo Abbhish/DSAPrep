@@ -1,5 +1,7 @@
 Stacks & Queues
 
+Count - 11
+
 1.  Stack Implementation Using Array
 
 https://www.naukri.com/code360/problems/stack-implementation-using-array_3210209?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
