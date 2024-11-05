@@ -1,8 +1,21 @@
 Trees
 
+Count - 10
+
 1. Diameter of Binary Tree
 
 https://www.naukri.com/code360/problems/920552?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Example :
+Input: Consider the given binary tree:
+```
+![image](https://github.com/user-attachments/assets/21740734-0558-4efc-86ea-6aa5b4aee630)
+```
+Output: 6
+
+Explanation:
+Nodes in the diameter are highlighted. The length of the diameter, i.e., the path length, is 6.
+```
 ```
 /*************************************************************
 
@@ -43,6 +56,10 @@ public class Solution {
 2. LCA of Binary Tree
 
 https://www.naukri.com/code360/problems/920541?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/0a597138-28cd-41dd-803e-2f7866129d3f)
+```
+LCA of ‘X’ and ‘Y’ is highlighted in yellow colour.
+```
 ```
 /************************************************************
 
@@ -91,6 +108,10 @@ public class Solution {
 3. Level order traversal
 
 https://www.naukri.com/code360/problems/796002?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/b37503c3-9316-4f88-b7f2-f3f217f311d4)
+```
+The level order traversal will be {1,2,3,4,5,6,7}.
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -140,6 +161,13 @@ public class Solution {
 4. Binary Tree Zig-Zag Traversal
 
 https://www.naukri.com/code360/problems/1062662?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+For the given binary tree
+```
+![image](https://github.com/user-attachments/assets/10e30ffe-fd35-4bfc-8595-79b81adbf803)
+```
+The zigzag  traversal is [1, 4, 3, 5, 2, 7, 6]
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -198,6 +226,10 @@ public class Solution {
 5. Left View of Binary Tree
 
 https://www.naukri.com/code360/problems/920519?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+![image](https://github.com/user-attachments/assets/fe64ea28-69f4-4c46-befd-90c51896fe87)
+```
+The left view of the above binary tree is  {5, 7, 14, 25}.
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -255,6 +287,14 @@ public class Solution
 6. Top View of Binary Tree
 
 https://www.naukri.com/code360/problems/799401?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+Example :
+Input: Let the binary tree be:
+```
+![image](https://github.com/user-attachments/assets/799dc656-8085-4597-82b7-3f5095f9e1e5)
+```
+Output: [10, 4, 2, 1, 3, 6]
+```
 ```
 /*********************************************
 
@@ -327,6 +367,12 @@ public class Solution {
 
 https://www.naukri.com/code360/problems/920539?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 ```
+For example :
+For the preorder sequence = [1, 2, 4, 7, 3] and the inorder sequence = [4, 2, 7, 1, 3], we get the following binary tree.
+```
+![image](https://github.com/user-attachments/assets/4a8bcfe3-37b6-4266-90b2-052ef933a938)
+
+```
 import java.util.HashMap;
 
 /*********************************************************
@@ -384,6 +430,15 @@ public class Solution {
 8. Vertical Order Traversal
 
 https://www.naukri.com/code360/problems/vertical-order-traversal_920533?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube&leftPanelTabValue=PROBLEM
+```
+For example:
+For the binary tree in the image below.
+```
+![image](https://github.com/user-attachments/assets/e84802f5-e3fd-4a84-81d0-4631eb354c4d)
+
+```
+The vertical order traversal will be {2, 7, 5, 2, 6, 5, 11, 4, 9}.
+```
 ```
 import java.util.* ;
 import java.io.*; 
@@ -467,6 +522,15 @@ public class Solution
 
 https://www.naukri.com/code360/problems/inorder-traversal_3839605?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube&leftPanelTabValue=PROBLEM
 ```
+For example :
+For the given binary tree:
+```
+![image](https://github.com/user-attachments/assets/e0ef9ee5-ef87-417f-af33-cc8f34b415ed)
+
+```
+The Inorder traversal will be [5, 3, 2, 1, 7, 4, 6].
+```
+```
 /*
     Following is the TreeNode class structure:
 
@@ -512,6 +576,17 @@ public class Solution {
 10. LCA of Two Nodes in BST.
 
 https://www.naukri.com/code360/problems/981280?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+```
+For example:
+'P' = 1, 'Q' = 3
+tree = 2 1 4 -1 -1 3 -1 -1 -1,
+
+The BST corresponding will be- 
+```
+![image](https://github.com/user-attachments/assets/76a57fc8-92ef-48da-b8f5-49f664a061fe)
+```
+Here, we can clearly see that LCA of node 1 and node 3 is 2.
+```
 ```
 /*********************************************************
 
